@@ -1,1 +1,47 @@
 "target/" 
+# Archivos de compilación
+/target/
+*.class
+
+# Archivos de logs
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Archivos de sistema
+*.swp
+*~
+
+# Archivos de pruebas y cobertura
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# Archivos de entorno
+.env
+*.local
+
+# Archivos Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de configuración
+*.properties.local
+application-*.yml
+application-*.yaml
+
+application.properties
